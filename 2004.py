@@ -1,0 +1,10 @@
+a004. 文文的求婚
+while True:
+    try:
+        a=int(input())
+        if a%400==0 or (a%4==0 and a%100!=0):
+            print("閏年")
+        else:
+            print("平年")
+    except:
+        break
